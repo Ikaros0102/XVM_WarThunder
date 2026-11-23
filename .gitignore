@@ -1,0 +1,33 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Frontend Dependencies & Build Output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# PyInstaller / Packaging Artifacts
+build/
+dist/*
+!dist/WT-XVM.exe
+
+# Runtime User Config, Caches & Debug Logs
+config.json
+logs/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# IDE & OS Files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

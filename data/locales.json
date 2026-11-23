@@ -1,0 +1,89 @@
+{
+  "ru": {
+    "kill_verbs": [
+      "уничтожил",
+      "сбил"
+    ],
+    "fire_verbs": [
+      "поджёг",
+      "поджег"
+    ],
+    "damage_verbs": [
+      "нанёс фатальное повреждение",
+      "нанес фатальное повреждение",
+      "нанёс критическое повреждение",
+      "нанес критическое повреждение"
+    ],
+    "self_death_verbs": [
+      "выведен из строя",
+      "разбился",
+      "утонул",
+      "самоуничтожился"
+    ],
+    "disconnect_phrases": [
+      "потерял связь"
+    ],
+    "ignore_phrases": [
+      "получил \"",
+      "нанёс первый удар",
+      "нанес первый удар"
+    ],
+    "ai_prefixes": [
+      "[ии]"
+    ],
+    "air_alert_patterns": [
+      "Воздух!\\s*Азимут\\s*(\\d+)\\s*,\\s*высота\\s+около\\s*(\\d+)"
+    ],
+    "friendly_chat_modes": [
+      "Команда",
+      "Отряд",
+      "Team",
+      "Squad"
+    ]
+  },
+  "en": {
+    "kill_verbs": [
+      "destroyed",
+      "shot down"
+    ],
+    "fire_verbs": [
+      "set afire"
+    ],
+    "damage_verbs": [
+      "critically damaged",
+      "severely damaged"
+    ],
+    "self_death_verbs": [
+      "has crashed",
+      "has wrecked",
+      "drowned",
+      "was destroyed"
+    ],
+    "disconnect_phrases": [
+      "has disconnected from the game.",
+      "has disconnected from the game"
+    ],
+    "ignore_phrases": [
+      "has achieved \"",
+      "has delivered the first strike"
+    ],
+    "ai_prefixes": [
+      "[AI]"
+    ],
+    "air_alert_patterns": [
+      "Air Alert!\\s*Azimuth\\s*(\\d+)\\s*,\\s*(?:the\\s+)?altitude\\s+is\\s+about\\s*(\\d+)"
+    ],
+    "friendly_chat_modes": [
+      "Team",
+      "Squad",
+      "Команда",
+      "Отряд"
+    ]
+  },
+  "universal": {
+    "disconnect_token": "td! kd?NET_PLAYER_DISCONNECT_FROM_GAME",
+    "weapon_prefixes": [
+      "weapons/"
+    ]
+  }
+}
